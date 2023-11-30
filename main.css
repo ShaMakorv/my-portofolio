@@ -1,0 +1,51 @@
+* {
+    background-color: #121212;
+    font-family: 'Courier New';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+li, a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav_link {
+    list-style: none;
+}
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_link li a:hover {
+    color: blueviolet;
+}
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.typewriter {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 3.5s steps(40, end), blinking-cursor 0.75s step-end infinite;
+   }
+   
+   @keyframes typing {
+    from { width: 0%; }
+    to { width: 100%; }
+   }
+   
+   @keyframes blinking-cursor {
+    from, to { border-color: transparent; }
+     50% { border-color: rgb(255, 255, 255); }
+   }
